@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/AttestationImage"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/initial"/>
+
+    <Button
+        android:id="@+id/AttestationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setup Attestation"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/buttonRecordMic"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:text="Record Mic" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/buttonStopMic"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Stop Mic" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/buttonPlayMic"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Play Mic" />-->
+
+
+</LinearLayout>
